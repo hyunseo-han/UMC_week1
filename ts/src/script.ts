@@ -62,7 +62,7 @@ const createTodoElement = (todo: Todo, isDone: boolean): HTMLElement => {
   li.textContent = todo.text;
 
   const button = document.createElement("button");
-  button.classList.add("render-container_item-button");
+  button.classList.add("render-container__item-button");
 
   if (isDone) {
     button.textContent = "삭제";
